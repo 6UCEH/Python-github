@@ -2,6 +2,6 @@ def sphere_volume(radius):
     return (4 / 3) * 3.14159 * (radius ** 3)
 
 
-r = float(input("Введите радиус сферы: "))
+r = float(input("\nВведите радиус сферы:\n"))
 volume = sphere_volume(r)
-print("Объем сферы:", round(volume, 2))
+print("\nОбъем сферы:\n", round(volume, 2))

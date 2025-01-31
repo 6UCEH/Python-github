@@ -4,6 +4,6 @@ def reverse_words(sentence):
     return " ".join(reversed_words)  
 
 # Пример использования
-sentence = input("Введите предложение: ")
+sentence = input("\nВведите предложение: ")
 result = reverse_words(sentence)
-print("Результат:", result)
+print("\nРезультат:\n", result)
