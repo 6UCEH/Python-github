@@ -1,7 +1,7 @@
 import psycopg2
 import csv
 
-# Подключение к базе данных bisert
+# Подключение к базе данных bisenertai
 conn = psycopg2.connect(
     dbname="bisert",           # <--  база
     user="bisert",             # <-- имя пользователя 
