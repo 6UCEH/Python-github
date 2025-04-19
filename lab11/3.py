@@ -50,7 +50,7 @@ def insert_from_csv(file_path):
   conn.commit()
   print("Данные из CSV добавлены.")
 
-# Меню
+# Меню 1
 def menu():
   create_table()
   while True:
